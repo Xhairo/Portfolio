@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portafolio de proyectos, Desarrollador Fullstack Java Junior"
+    />
+    <meta name="author" content="Carlos Frinch" />
+    <link rel="stylesheet" href="assets/stylesheet/stylesheet.css" />
+    <link rel="icon" href="assets/imagenes/favicon.ico" type="imagenes/ico" />
+
+    <title>Portafolio | Carlos Frinch</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav class="navbar">
+          <div class="logo">
+            <img
+              src="/assets/imagenes/xploshion-png-letra-blanca.png"
+              alt="logo"
+            />
+          </div>
+          <ul class="navbar-options">
+            <li><a href="#about">Sobre mí</a></li>
+            <li><a href="#projects">Proyectos</a></li>
+            <li><a href="#skills">Habilidades</a></li>
+            <li><a href="#contact">Contáctame</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section id="about" class="container">
+      <div class="about-descripcion-container">
+        <div class="about-despripcion">
+          <h1>Carlos Frinch Mora</h1>
+          <p>
+            Desarrollador Fullstack con 1+ años de experiencia en el desarrollo
+            de videojuegos como independiente, he creado mas de 4 proyectos
+            todos lanzados en mi pagina de itch.io.
+          </p>
+          <p>
+            Actualmente estoy buscando nuevos retos en el mundo del desarrollo
+            web que me permitan demostrar mi creatividad y habilidades para
+            lograr despegar mi carrera profesional.
+          </p>
+        </div>
+        <div class="about-img">
+          <img src="/assets/imagenes/gutsperfill.png" alt="foto de perfil" />
+        </div>
+      </div>
+
+      <div>
+        <div class="social-links">
+          <a
+            href="https://www.linkedin.com/in/carlos-frinch/"
+            target="_blank"
+            class="social-link"
+          >
+            <img src="/assets/imagenes/icons/linkedin.svg" alt="LinkedIn" />
+          </a>
+          <a
+            href="https://github.com/Xhairo"
+            target="_blank"
+            class="social-link"
+          >
+            <img src="/assets/imagenes/icons/github.svg" alt="GitHub" />
+          </a>
+          <a href="https://xhairo.itch.io" target="_blank" class="social-link">
+            <img src="/assets/imagenes/icons/itch-io.svg" alt="Itch.io" />
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="projects-section" class="container">
+      <h2>Proyectos</h2>
+      <div class="projects">
+        <div class="projects-grid">
+          <div class="main-card" id="mainCard">
+            <span class="close-btn" onclick="closeMainCard()">&times;</span>
+            <div id="mainCardContent"></div>
+        </div>
+        <!-- Example of a project card -->
+        <div class="project-card" id="project1" onclick="showMainCard('project1')">
+            <div class="card-content" >
+              <h3>Shoot Fast Cowboy</h3>
+            </div>
+        </div>
+        <!-- Repeat for other projects -->
+        <div class="project-card" id="project2" onclick="showMainCard('project2')">
+            <div class="card-content">
+                <h3>reWorld</h3>
+            </div>
+        </div>
+        <div class="project-card" id="project3" onclick="showMainCard('project3')">
+            <div class="card-content">
+                <h3>Master of Magic</h3>
+            </div>
+        </div>
+        <div class="project-card" id="project4" onclick="showMainCard('project4')">
+            <div class="card-content">
+                <h3>MyPets</h3>
+            </div>
+        </div>
+        <div class="project-card" id="project5" onclick="showMainCard('project5')">
+            <div class="card-content">
+                <h3>E-commmerce</h3>
+            </div>
+        </div>
+        <div class="project-card" id="project6" onclick="showMainCard('project6')">
+            <div class="card-content">
+                <h3>BiciConectados</h3>
+            </div>
+        </div>
+      </div>
+    </section>
+    <section id="skills" class="container">
+      <h2>Habilidades</h2>
+      <div class="skill-grid-container">
+        <div class="skill-card">
+         <img class="skill-card-img"src="/assets/imagenes/icons/html5.svg" alt="HTML">
+         <strong>HTML</strong>
+        </div>
+        <div class="skill-card">
+          <img class="skill-card-img" src="/assets/imagenes/icons/css3.svg"  alt="CSS">
+          <strong>CSS</strong>
+         </div>
+         <div class="skill-card">
+          <img class="skill-card-img" src="/assets/imagenes/icons/js.svg"  alt="JS">
+          <strong>JavaScript</strong>
+         </div>
+         <div class="skill-card">
+          <img class="skill-card-img" src="/assets/imagenes/icons/react.svg"  alt="React">
+          <strong>React</strong>
+         </div>
+         <div class="skill-card">
+          <img class="skill-card-img" src="/assets/imagenes/icons/java.svg"  alt="Java">
+          <strong>Java</strong>
+         </div>
+         <div class="skill-card">
+          <img class="skill-card-img" src="/assets/imagenes/icons/spring.svg"  alt="Spring">
+          <strong>Spring</strong>
+         </div>
+         <div class="skill-card">
+          <img class="skill-card-img" src="/assets/imagenes/icons/mysql.svg"  alt="MySQL">
+          <strong>MySQL</strong>
+         </div>
+         <div class="skill-card">
+          <img class="skill-card-img" src="/assets/imagenes/icons/git.svg"  alt="Git">
+          <strong>Git</strong>
+         </div>
+         <div class="skill-card">
+          <img class="skill-card-img" src="/assets/imagenes/icons/blender.svg"  alt="Blender">
+          <strong>Blender</strong>
+         </div>
+         <div class="skill-card">
+          <img class="skill-card-img" src="/assets/imagenes/icons/unity.svg"  alt="Unity">
+          <strong>Unity</strong>
+         </div>
+         <div class="skill-card">
+          <img class="skill-card-img" src="/assets/imagenes/icons/csharp.svg"  alt="csharp">
+          <strong>C#</strong>
+         </div>
+      </div>
+    </section>
+
+    <section id="contact" class="container">
+      
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>2024 Carlos Frinch.</p>
+      </div>
+    </footer>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
