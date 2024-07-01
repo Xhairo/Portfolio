@@ -4,7 +4,7 @@ const projects = {
     description:
       "Este juego fue un proyecto personal en el año 2023 donde decidi realizarlo para un evento llamado Demoday.",
     tools: ["Unity", "Blender", "Csharp", "Firebase"],
-    image: "/assets/imagenes/Proyectos/proyect1.png",
+    image: "assets/imagenes/Proyectos/proyect1.png",
     video: "https://www.youtube.com/embed/rck4Krg_cII",
   },
   project2: {
@@ -35,7 +35,7 @@ function showMainCard(projectId) {
     .map(
       (tool, index) => `
   <div class="tool">
-      <img src="/assets/imagenes/icons/${tool
+      <img src="assets/imagenes/icons/${tool
         .toLowerCase()
         .replace(" ", "-")}.svg" alt="${tool}" />
       <div class="tooltip">${tool}</div>
