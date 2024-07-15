@@ -6,6 +6,8 @@ const projects = {
     tools: ["Unity", "Blender", "Csharp", "Firebase"],
     image: "assets/imagenes/Proyectos/proyect1.png",
     video: "https://www.youtube.com/embed/rck4Krg_cII",
+    repo: "",
+    ver: "",
   },
   project2: {
     title: "reWorld",
@@ -13,6 +15,38 @@ const projects = {
     tools: ["Unity", "Blender", "Csharp"],
     image: "assets/imagenes/Proyectos/proyect2.jpg",
     video: "https://www.youtube.com/embed/BgXaboXJYD8",
+    repo: "",
+    ver: "",
+  },
+  project3: {
+    title: "Master of Magic",
+    description:
+      "Mi Primer Videojuego donde fue mi inicio en el mundo de la programacion con bloques de logica",
+    tools: ["Unity", "Blender", "Csharp"],
+    image: "assets/imagenes/Proyectos/masterofmagic.png",
+    video: "",
+    repo: "",
+    ver: "",
+  },
+  project4: {
+    title: "E-Commerce",
+    description:
+      "e-commerce, de videojuegos con un estilo visual de Cyberpunk 2077",
+    tools: ["React", "Node", "Git", "JS"],
+    image: "assets/imagenes/Proyectos/e-commerce.png",
+    video: "",
+    repo: "",
+    ver: "",
+  },
+  project5: {
+    title: "BiciConectados",
+    description:
+      "Red Social que contiene un mapa Interactivo para realizar rutas que incentivar el el uso de la bicicleta como medio de transporte.",
+    tools: ["React", "Node", "Spring", "Git", "GitHub", "java", "mysql"],
+    image: "assets/imagenes/Proyectos/BiciConectados.png",
+    video: "https://www.youtube.com/embed/zQ3ThVIiI3Q",
+    repo: "",
+    ver: "",
   },
   // Add other projects similarly
 };
@@ -52,9 +86,13 @@ function showMainCard(projectId) {
         }
         <h2>${project.title}</h2>
         <p>${project.description}</p>
-        <h4>Herramientas<h4>
+        <h4>Herramientas</h4>
         <div class="tools">
             ${toolsHtml}
+        </div>
+        <div class="links">
+          <a href="${project.repo}">GitHub</a>
+          <a href="${project.ver}">Ver</a>
         </div>
     `;
 

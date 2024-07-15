@@ -121,6 +121,7 @@ a {
 .social-link img {
   width: 30px;
   height: 30px;
+  overflow: hidden;
   transition: transform 0.3s;
 }
 
@@ -157,15 +158,33 @@ a {
 .main-card {
   background-size: cover;
   background-position: center;
-  height: 97.5%;
+  height: 530px;
+
   position: relative;
   cursor: pointer;
+  border: 2px solid white;
+  border-radius: 15px;
+}
+#mainCardContent {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 5px;
+  justify-content: space-between;
+  height: 95%;
+}
+#mainCardContent > img {
+  height: 150px;
+}
+#mainCardContent > h4 {
+  margin: 0;
 }
 
 .project-card .card-content,
 .main-card .card-content {
   display: flex;
   justify-content: center;
+
   align-items: center;
   height: 100%;
   background-color: rgba(24, 18, 18, 0.5);
@@ -176,7 +195,10 @@ a {
 .main-card h3 {
   margin: 0;
 }
-
+.project-card:hover {
+  transform: translate(0px, -10px);
+  z-index: 2;
+}
 .main-card {
   display: none;
   background-color: var(--primary-color);
@@ -201,14 +223,15 @@ a {
 .tools {
   margin: 5px 0px;
   display: flex;
-  gap: 1px;
+  gap: 5px;
+  flex-direction: row;
+  flex-wrap: wrap;
   position: relative;
 }
 
 .tools img {
-  width: 40px;
-  height: 40px;
-  margin: 10px 5px;
+  width: 30px;
+  height: 30px;
   position: relative;
   transition: transform 0.3s;
 }
@@ -226,13 +249,22 @@ a {
   padding: 5px;
   position: absolute;
   z-index: 1;
-  bottom: -35%; /* Show the tooltip above the image */
+  bottom: -100%; /* Show the tooltip above the image */
   left: 50%;
   transform: translateX(-50%);
   opacity: 0;
   transition: opacity 0.3s;
 }
+.links {
+  display: flex;
 
+  gap: 20px;
+}
+.links a {
+  padding: 5px 20px;
+  background-color: var(--secundary-color);
+  border-radius: 15px;
+}
 .tool:hover .tooltip {
   visibility: visible;
   opacity: 1;
