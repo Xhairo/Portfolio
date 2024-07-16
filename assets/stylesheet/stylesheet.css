@@ -263,6 +263,7 @@ a {
   padding: 5px 20px;
   background-color: var(--secundary-color);
   border-radius: 10px;
+  font-weight: 500;
 }
 .clikeable {
   background-color: var(--secundary-color);
