@@ -20,7 +20,7 @@ const projects = {
   },
   project5: {
     title: "Master of Magic",
-    description: `Mi Primer Videojuego realizado en 2014, fue mi inicio en el mundo de la programacion con bloques de logica <a href="assets/imagenes/gdd.pdf">GDD</a>`,
+    description: `Mi Primer Videojuego realizado en 2014, fue mi inicio en el mundo de la programacion con bloques de logica. <br><br> <a class="clikeable" href="assets/imagenes/gdd.pdf">GDD</a>`,
     tools: ["Construct"],
     image: "assets/imagenes/Proyectos/masterofmagic.png",
     video: "",
@@ -34,7 +34,7 @@ const projects = {
     tools: ["React", "Node", "Git", "JS"],
     image: "assets/imagenes/Proyectos/e-commerce.png",
     video: "",
-    repo: "",
+    repo: "https://github.com/Xhairo/e-commerce",
     ver: "",
   },
   project1: {
@@ -42,7 +42,7 @@ const projects = {
     description:
       "Red Social que contiene un mapa Interactivo para realizar rutas que incentivar el el uso de la bicicleta como medio de transporte.",
     tools: ["React", "Node", "Spring", "Git", "GitHub", "java", "mysql"],
-    image: "assets/imagenes/Proyectos/BiciConectados.png",
+    image: "assets/imagenes/Proyectos/biciconectados.png",
     video: "https://www.youtube.com/embed/zQ3ThVIiI3Q",
     repo: "https://github.com/jupitaa/FrontBiciconectados",
     ver: "",
@@ -110,7 +110,7 @@ function showMainCard(projectId) {
           ${
             project.ver
               ? ` <a href="${project.ver} " target="_blank">
-                Ver
+                Jugar
               </a>`
               : ""
           }

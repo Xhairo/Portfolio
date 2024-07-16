@@ -257,13 +257,17 @@ a {
 }
 .links {
   display: flex;
-
   gap: 20px;
 }
 .links a {
   padding: 5px 20px;
   background-color: var(--secundary-color);
-  border-radius: 15px;
+  border-radius: 10px;
+}
+.clikeable {
+  background-color: var(--secundary-color);
+  padding: 5px 10px;
+  border-radius: 10px;
 }
 .tool:hover .tooltip {
   visibility: visible;
