@@ -320,3 +320,49 @@ footer > div > p {
   font-size: 15px;
 }
 /*#endregion */
+/*#region responsive*/
+@media (max-width: 440px) {
+  .container {
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  .about-despripcion {
+    order: 2;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-despripcion p {
+    width: 70%;
+  }
+  .about-descripcion-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .projects-grid {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+  .project-card {
+    height: 250px;
+  }
+  .main-card {
+    height: 600px;
+  }
+  #mainCardContent > img {
+    height: 200px;
+  }
+  #mainCardContent > iframe {
+    height: 200px;
+  }
+}
+
+/*#endregion*/
