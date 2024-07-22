@@ -102,8 +102,8 @@ function showMainCard(projectId) {
   mainCardContent.innerHTML = `
         ${
           project.video
-            ? `<iframe width="100%" height="150" src="${project.video}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
-            : `<img src="${project.image}" alt="${project.title}" height="100%" width="100%">`
+            ? `<iframe src="${project.video}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
+            : `<img src="${project.image}" alt="${project.title}">`
         }
         <h2>${project.title}</h2>
         <p>${project.description}</p>
