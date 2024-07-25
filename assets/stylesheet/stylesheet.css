@@ -86,11 +86,11 @@ a {
   justify-content: space-between;
 }
 
+.about-img img {
+  width: 250px;
+}
 #about > .about-descripcion-container > .about-despripcion {
   width: 100%;
-}
-#about > .about-descripcion-container > .about-img > img {
-  width: 250px;
 }
 
 .social-links {
