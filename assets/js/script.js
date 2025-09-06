@@ -47,7 +47,7 @@ const projects = {
       "Red Social que contiene un mapa Interactivo para realizar rutas que incentivar el uso de la bicicleta como medio de transporte. Trabajo realizado tanto como el front como el backend junto a 3 personas mas",
     tools: ["React", "Node", "Spring", "Git", "GitHub", "java", "mysql"],
     image: "assets/imagenes/Proyectos/biciconectados.png",
-    video: "https://www.youtube.com/embed/zQ3ThVIiI3Q",
+    video: "",
     repo: "https://github.com/jupitaa/FrontBiciconectados",
     ver: "",
     jugar: "",

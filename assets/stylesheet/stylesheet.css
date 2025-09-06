@@ -177,9 +177,11 @@ a {
 }
 #mainCardContent > img {
   height: 200px;
+  width: 100%;
 }
 #mainCardContent > iframe {
   height: 200px;
+  width: 100%;
 }
 #mainCardContent > h4 {
   margin: 0;
